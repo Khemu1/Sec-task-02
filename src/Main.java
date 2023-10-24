@@ -22,7 +22,7 @@ class Circle {
     }
     @Override
     public String toString()    {
-        return "radius " + this.radius;
+        return "radius " + this.radius +" ,Circumference " + calcCircumference(this.radius)+" ,Area " +calcArea(this.radius) ;
     }
 }
 class MultiCircle {
